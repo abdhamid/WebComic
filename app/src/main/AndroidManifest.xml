@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="abdhamid.webcomic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".TahilalatsActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".ReadTahilalats" />
+        <activity android:name=".TheGamerActivity" />
+        <activity android:name=".PakInyongActivity" />
+        <activity android:name=".FaktapActivity" />
+        <activity android:name=".GhostyActivity" />
+        <activity android:name=".NgopiActivity" />
+        <activity android:name=".ReadTheGamer" />
+        <activity android:name=".ReadInyong" />
+        <activity android:name=".ReadFaktap" />
+        <activity android:name=".ReadNgopi" />
+        <activity android:name=".ReadGhosty"></activity>
+    </application>
+
+</manifest>
